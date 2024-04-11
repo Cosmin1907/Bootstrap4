@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.site-wide-alert {
+    border-radius: 0;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/whiskey.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/*navbar*/
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+color: white;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin 25px 0;
+    color:aqua;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: lightgrey;
+}
+
+/*Buttons*/
+
+
